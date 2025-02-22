@@ -26,7 +26,7 @@ const YoloPay = () => {
                 </View>
 
             </View>
-            <View>
+            <View style={{ flex: 1, flexDirection: 'column', justifyContent: 'flex-end' }}>
                 <Image source={require('../../assets/images/rectangle.png')} style={{ minWidth: windowWidth - 2 }} />
             </View>
         </SafeAreaView>

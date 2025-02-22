@@ -11,8 +11,10 @@ const Home = () => {
             flexDirection: 'column',
             justifyContent: 'space-between'
         }}>
-            <Text style={{ color: 'white', fontSize: 20 }}>Welcome Home</Text>
-            <View><Image source={require('../../assets/images/rectangle.png')} style={{ minWidth: windowWidth - 2 }} /></View>
+            <Text style={{ color: 'white', fontSize: 20, marginTop: 20, marginLeft: 20 }}>Welcome Home</Text>
+            <View>
+                <Image source={require('../../assets/images/rectangle.png')} style={{ minWidth: windowWidth - 2 }} />
+            </View>
 
         </View>)
 }

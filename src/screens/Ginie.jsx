@@ -7,12 +7,14 @@ const Ginie = () => {
     return (
         <View style={{
             flex: 1,
-            backgroundColor: '#0D0D0D', 
-        flexDirection:'column',
-        justifyContent:'space-between'
+            backgroundColor: '#0D0D0D',
+            flexDirection: 'column',
+            justifyContent: 'space-between'
         }}>
-            <Text style={{ color: 'white', fontSize: 20 }}>Welcome Ginie</Text>
-            <View> <Image source={require('../../assets/images/rectangle.png')} style={{ minWidth: windowWidth - 2 }} /></View>
+            <Text style={{ color: 'white', fontSize: 20, marginTop: 20, marginLeft: 20 }}>Welcome Ginie</Text>
+            <View>
+                <Image source={require('../../assets/images/rectangle.png')} style={{ minWidth: windowWidth - 2 }} />
+            </View>
 
         </View>
     )
